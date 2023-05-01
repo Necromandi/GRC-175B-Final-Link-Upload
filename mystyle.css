@@ -1,0 +1,253 @@
+@charset "utf-8"
+/* CSS Document */
+body {  
+    background-image: url("../Images/HomepageBackground.jpg");
+    background-size: cover;
+    font-family: Helvetica, Arial, sans-serif; 
+    margin: 0;
+    }
+
+a {
+    text-decoration: none; 
+    color: coral; 
+}
+
+h1, h2, h3 {
+    color: black; 
+    margin: -20px;
+    padding: 25px;
+}
+
+h2 {
+    color: black;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    color: black;
+    padding: 0px;
+    margin: 10px
+}
+
+h5 {
+    float: left;
+    margin-left: 630px;
+    margin-top: 5px;
+}
+
+blog {
+    float: left;
+    padding:30px;
+    text-align: center;  
+    font-size: 30px;
+    color: black;
+    width: 92.5%;
+    background-color: burlywood;
+}
+
+article {
+}
+
+article h3 {
+    float: left;
+    width: 95%;
+    height:200px;
+    padding: 20px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+article h4 {
+    float: left;
+    width: 95%;
+    height:10px;
+    padding:20px;
+    margin-top: 0px;
+    font-size:16px;
+}
+
+table {
+    width: 100%;
+    float: right;
+}
+
+#container {
+    background-color: floralwhite;
+    opacity: ;
+    width: 800px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    color: coral;
+    text-align: left;
+}
+
+.content {
+    padding: 0;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: floralwhite
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: coral;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;   
+}
+
+.topnav li {
+    list-style: none;     
+}
+
+.topnav ul {
+    float: left;
+}
+
+.topnav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+.slider_image {
+    width: 100%;
+    flex: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: cadetblue
+    padding: 20px;
+}
+
+.flex-container {
+    flex-direction: row;
+    display: flex;
+    justify-content: left;
+    clear: both;
+}
+
+.flex-container > div {
+   flex-direction: row;
+   color: white;
+   margin: 10px;
+   text-align: left;
+   line-height: 25px;
+   font-size: 30px;
+    
+}
+
+.flex-container1 {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container1 > div {
+    flex-direction: row;
+    background-color: antiquewhite;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+flex-container2 {
+    display: flex;
+    background-color: #f1f1f1;
+    clear:both;
+}
+flex-container2 > div {
+    background-color: azure;
+    color: black;
+    width: 100%;
+    margin: 10 px;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.flex-container3 {
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container3 > div > li {
+    color: black;
+}
+
+.flex-container3 > div {
+    background-color: antiquewhite;
+    color: black;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.flex-container3 > div  h1 {
+    background-color: antiquewhite;
+    color: #dd7712;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    padding-left: 0px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.flex-container3 > div  h2 {
+    background-color: antiquewhite;
+    color: #dd7712;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.flex-container3 > div  h3 {
+    background-color: antiquewhite;
+    color: #dd7712;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.flex-container3 > div  h4 {
+    background-color: antiquewhite;
+    color: #dd7712;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.flex-container3 > div  h5 {
+    background-color: antiquewhite;
+    color: #dd7712;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+}
